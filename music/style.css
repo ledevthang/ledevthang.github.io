@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/8938012/thumb/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  -webkit-filter: blur(10px);
+  filter: blur(10px); }
+
+#select {
+  display: block;
+  margin: auto;
+  width: 390px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(http://icons.iconarchive.com/icons/dtafalonso/yosemite-flat/512/Music-icon.png) 96%/8% no-repeat #eee; }
+
+#select::-ms-expand {
+  display: none; }
+
+.play {
+  width: 80%;
+  margin: 50px auto; }
+  .play .img {
+    display: table;
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    -webkit-animation: color 120s infinite;
+    animation: color 120s infinite; }
+    .play .img img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 23vw;
+      height: 23vw;
+      border-radius: 50%;
+      -webkit-animation: round 8s infinite linear;
+      animation: round 8s infinite linear; }
+  .play #audio {
+    width: 80%;
+    margin: auto;
+    display: block; }
+  .play .more {
+    height: 60px;
+    margin-top: 30px;
+    padding: 10px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .play .more .btn-feature {
+      width: 20%; }
+      .play .more .btn-feature i {
+        font-size: 150px;
+        -webkit-animation: color-text 120s infinite;
+        animation: color-text 120s infinite; }
+    .play .more .feature {
+      width: 80%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .play .more .feature button {
+        width: 20%;
+        -webkit-animation: color 120s infinite;
+        animation: color 120s infinite;
+        color: #fff; }
+      .play .more .feature label {
+        background: #dc3545;
+        height: 100%;
+        color: #fff;
+        -webkit-animation: color 120s infinite;
+        animation: color 120s infinite; }
+        .play .more .feature label input {
+          display: none; }
+  .play .input {
+    width: 33%;
+    height: 50%;
+    margin: auto; }
+  .play #unrepeat {
+    display: none; }
+  .play .mm {
+    -webkit-animation: color 120s infinite;
+    animation: color 120s infinite;
+    margin: 0 10px; }
+  .play #current-song {
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    color: #DADEDF; }
+  .play span {
+    color: red; }
+
+@-webkit-keyframes round {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes round {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes color {
+  0% {
+    background: #dc3545; }
+  50% {
+    background: #28a745; }
+  100% {
+    background: #007bff; } }
+
+@keyframes color {
+  0% {
+    background: #dc3545; }
+  50% {
+    background: #28a745; }
+  100% {
+    background: #007bff; } }
+
+@-webkit-keyframes color-text {
+  0% {
+    color: #dc3545; }
+  50% {
+    color: #28a745; }
+  100% {
+    color: #007bff; } }
+
+@keyframes color-text {
+  0% {
+    color: #dc3545; }
+  50% {
+    color: #28a745; }
+  100% {
+    color: #007bff; } }
+
+@-webkit-keyframes border {
+  0% {
+    color: red;
+    border: 3px solid red; }
+  50% {
+    color: green;
+    border: 3px solid green; }
+  100% {
+    color: blue;
+    border: 3px solid blue; } }
+
+@keyframes border {
+  0% {
+    color: red;
+    border: 3px solid red; }
+  50% {
+    color: green;
+    border: 3px solid green; }
+  100% {
+    color: blue;
+    border: 3px solid blue; } }
+
+@media screen and (max-width: 414px) {
+  .more {
+    padding: 10px 0px; }
+  .input {
+    display: none; } }
