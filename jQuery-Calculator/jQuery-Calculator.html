@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery-Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jQuery-Calculator.css">
+	<link rel="shortcut icon" type="text/css" href="https://d30y9cdsu7xlg0.cloudfront.net/png/14265-200.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="div1">
+<table>
+		<tr>
+			<td colspan="6"> <input id="result" type="text"></td>
+		</tr>
+	<tr>
+			<td><input title="7" type="button" class="num" value="7" onclick="result.value+=this.value"></td>
+			<td><input title="8" type="button" class="num" value="8" onclick="result.value+=this.value"></td>
+			<td><input title="9" type="button" class="num" value="9" onclick="result.value+=this.value"></td>
+			<td><input title="Phép cộng" type="button" class="num" value="+" onclick="result.value+=this.value"></td>
+			<td><input title="Bình phương" type="button" class="num" value="X²" onclick="binhphuong()"></td>
+			<td><input title="Xóa" type="button" class="num" value="<--" onclick="result.value=result.value.substr(0,result.value.length-1)"></td>
+	</tr>
+	<tr>
+			<td><input title="4" type="button" class="num" value="4" onclick="result.value+=this.value"></td>
+			<td><input title="5" type="button" class="num" value="5" onclick="result.value+=this.value"></td>
+			<td><input title="6" type="button" class="num" value="6" onclick="result.value+=this.value"></td>
+			<td><input title="Phép trừ" type="button" class="num" value="-" onclick="result.value+=this.value"></td>
+			<td><input title="Phép giai thừa" type="button" class="num" value="!" onclick="giaithua()"></td>
+			<td><input title="Xóa tất cả" type="button" class="num" value="AC" onclick="result.value=''"></td>
+	</tr>
+	<tr>
+			<td><input title="1" type="button" class="num" value="1" onclick="result.value+=this.value"></td>
+			<td><input title="2" type="button" class="num" value="2" onclick="result.value+=this.value"></td>
+			<td><input title="3" type="button" class="num" value="3" onclick="result.value+=this.value"></td>
+			<td><input title="Phép nhân" type="button" class="num" value="*" onclick="result.value+=this.value"></td>
+			<td><button title="Căn bậc hai" class="num" onclick="canbac2()">√</button></td>
+			<td><input title="Số pi" type="button" id="pi" class="num" value="π" onclick="pi()"></td>
+
+	</tr>
+	<tr>
+			<td><input title="0" type="button" class="num" value="0" onclick="result.value+=this.value"></td>
+			<td><input title="Số thập phân" type="button" class="num" value="." onclick="result.value+=this.value"></td>
+			<td><input title="Phần trăm" type="button" class="num" value="%" onclick="phantram()"></td>
+			<td><input title="Phép chia" type="button" class="num" value="/" onclick="result.value+=this.value"></td>
+			<td colspan="2"><input title="Kết quả" type="button" class="num1" value="=" onclick="result.value=eval(result.value)"></td><br>	
+	</tr>
+</table>
+</div>
+<div id="last">
+	<h1>Created by</h1s>
+	<h1>Le Duc Thang at 10/2017</h1>
+</div>
+<div id="but2">
+	<button onclick="theme()">Change theme</button>
+</div>
+<br>
+<div id="but2">
+	<button onclick="theme2()">Default theme</button>
+</div>
+<script type="text/javascript">
+	function canbac2() {
+		var a= $('#result').val();
+		$('#result').val(Math.sqrt(a))
+	}
+	function phantram(){
+	$('#result').val(+$('#result').val() /100)
+	}
+	function binhphuong(){
+		var a = $('#result').val();
+		$('#result').val(a*a)
+	}
+	function giaithua(){
+		var a = $('#result').val();
+		var y=1;
+		for (var x = 1; x<a; x++){
+			y=y*x
+		$('#result').val(y*a)
+	}
+	}
+	function pi(){
+		var a = $('#result').val();
+		$('#result').val(+a*3.14159265359);
+
+	}
+	function theme(){
+		$('#body1').css('background-image', 'url("http://chibi.info/wp-content/uploads/2017/06/anh-yasuo-sieu-pham.png")');
+		$('table').css('background-image', 'url("http://www.xaluan.com/images/news/Image/2016/02/12/Yasuo-Splash-3-1024x604-1672-1455162837.jpg")');
+
+	}
+	function theme2(){
+		$('#body1').css('background-image', 'url("http://lienminh360.vn/wp-content/uploads/2014/10/Singed_Splash_0.jpg")');
+		$('table').css('background-image', 'url("https://lienminh.garena.vn/images/articles/minhminh55/2013/3-cam-nang/singed-top/singedtop-Singedaugmentedbnn.jpg")');
+	}
+</script>
+</body>
+</html>
