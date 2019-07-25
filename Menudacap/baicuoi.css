@@ -1,0 +1,145 @@
+
+body {
+	background-color: #FEEBD0;
+	max-width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+#div p{
+	font-family: Courier New;
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+
+}
+#div2 p {
+	font-family: Lucida Console;
+	font-size: 35px;
+	text-align: center;
+}
+#div2 h1 {
+	font-family: Lucida Console;
+	font-size: 50px;
+	text-align: center;
+}
+#div3 p {
+	font-size: 18px;
+	text-align: center;
+}
+#div3 h3 {
+	font-size: 25px;
+	float: left;
+	font-family: Courier New;
+}
+#div2 h1{
+	height: 25px;
+}
+#div1 a{
+	font-size: 26px;
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+ul li {
+	list-style: none;
+	width: 152px;
+	height: 20px;
+	float: left;
+	padding: 20px;
+	padding-bottom: 35px;
+	background-color: #E54646;
+}
+ul li ul {
+	display: none;
+}
+ul li:hover ul {
+	display: block;
+}
+ul li:hover {
+	background-color: #EE7C6B;
+	transform: scale(1.2);
+	transition: 0.5s
+}
+.con {
+	    margin-top: 24px;
+    	margin-left: -60px;
+}
+#anh {
+	max-width: 900px;
+	margin: auto;
+}
+#anh img:hover {
+	transform: scale(1.05);
+	transition: 0.5s
+}
+#anh img {
+	width: 400px;
+	height: 300px;
+	border-radius: 5%;
+}
+#anh a{
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 45px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	float: left;
+	border-radius: 5%
+}
+#anh h3 {
+	text-align: center;
+	text-decoration: none;
+}
+#div4 .pp {
+	font-family: Lucida Console;
+	font-size: 35px;
+	text-align: center;
+}
+#divcon img{
+	position: fixed;
+	width: 50px;
+    height: 50px;
+    right: 50px;
+
+}
+#foot {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+    bottom: -1300px;
+    width: 1030px;
+    height: 70px;
+    background-color: #E54646;
+}
+#thep2 p{
+	font-size: 30px;
+}
+#foot2 {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+    bottom: -200px;
+    width: 1030px;
+    height: 70px;
+    background-color: #E54646;
+}
+#theanh {
+	max-width: 600px;
+	margin: auto;
+}
+#theanh2 img{
+	width: 400px;
+	height: 300px;
+	float: right;
+}
+#dongke {
+	width: 1000px;
+	height: 5px;
+	background-color: #E54646;
+}
+#theanh2 img:hover {
+	transform: scale(1.05);
+	transition: 0.5s
+}
