@@ -1,0 +1,210 @@
+{
+  "demon": {
+    "key": "demon",
+    "name": "Demon",
+    "description": "Demons basic attacks have a 40% chance to burn 20 mana from their target and return mana to the attacker.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Aatrox_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Return 15 mana back to attacker"
+      },
+      {
+        "needed": 4,
+        "effect": "Return 30 mana back to attacker"
+      },
+      {
+        "needed": 6,
+        "effect": "Return 45 mana back to attacker"
+      }
+    ]
+  },
+  "dragon": {
+    "key": "dragon",
+    "name": "Dragon",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/AurelionSol_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Dragons are immune to 83% Magic damage"
+      }
+    ]
+  },
+  "exile": {
+    "key": "exile",
+    "name": "Exile",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Yasuo_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 1,
+        "effect": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a 100% max health."
+      }
+    ]
+  },
+  "glacial": {
+    "key": "glacial",
+    "name": "Glacial",
+    "description": "On hit, Glacials have a chance to stun for 2s.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Anivia_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "20% chance"
+      },
+      {
+        "needed": 4,
+        "effect": "30% chance"
+      },
+      {
+        "needed": 6,
+        "effect": "45% chance"
+      }
+    ]
+  },
+  "hextech": {
+    "key": "hextech",
+    "name": "Hextech",
+    "description": "When combat begins, the ally team launches and detonates a pulse bomb, temporarily disabling nearby enemy items for 7 seconds",
+    "accentChampionImage": "data:image/jpeg;base64,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",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Within 1 hex"
+      },
+      {
+        "needed": 4,
+        "effect": "Within 2 hexes"
+      }
+    ]
+  },
+  "imperial": {
+    "key": "imperial",
+    "name": "Imperial",
+    "description": "Imperials deal Double Damage.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Swain_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "1 random Imperial"
+      },
+      {
+        "needed": 4,
+        "effect": "All Imperials"
+      }
+    ]
+  },
+  "noble": {
+    "key": "noble",
+    "name": "Noble",
+    "description": "Nobles grant +50 Armor and Magic Resist and heal for 25 on hit",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Garen_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 3,
+        "effect": "1 random ally"
+      },
+      {
+        "needed": 6,
+        "effect": "All allies"
+      }
+    ]
+  },
+  "ninja": {
+    "key": "ninja",
+    "name": "Ninja",
+    "description": "Ninjas gain a percentage of Attack Damage.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Akali_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 1,
+        "effect": "1 Ninja only: Ninja gains +50 Attack Damage & Ability Power"
+      },
+      {
+        "needed": 4,
+        "effect": "4 Ninjas: All Ninjas gain +70 Attack Damage & Ability Power"
+      }
+    ]
+  },
+  "pirate": {
+    "key": "pirate",
+    "name": "Pirate",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Gangplank_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 3,
+        "effect": "Earn up to 4 additional gold after combat against another player."
+      }
+    ]
+  },
+  "phantom": {
+    "key": "phantom",
+    "name": "Phantom",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Mordekaiser_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Curse a random enemy at the start of combat, setting their HP to 100."
+      }
+    ]
+  },
+  "robot": {
+    "key": "robot",
+    "name": "Robot",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Blitzcrank_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 1,
+        "effect": "Robots start combat at full mana"
+      }
+    ]
+  },
+  "void": {
+    "key": "void",
+    "name": "Void",
+    "description": null,
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/RekSai_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 3,
+        "effect": "Void units deal True Damage."
+      }
+    ]
+  },
+  "wild": {
+    "key": "wild",
+    "name": "Wild",
+    "description": "Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 12% Attack Speed.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Rengar_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 2,
+        "effect": "Wild allies only"
+      },
+      {
+        "needed": 4,
+        "effect": "All allies"
+      }
+    ]
+  },
+  "yordle": {
+    "key": "yordle",
+    "name": "Yordle",
+    "description": "Attacks against ally Yordles have a chance to miss.",
+    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Poppy_Splash_Centered_0.jpg",
+    "bonuses": [
+      {
+        "needed": 3,
+        "effect": "35% chance to miss"
+      },
+      {
+        "needed": 6,
+        "effect": "60% chance to miss"
+      }
+    ]
+  }
+}
