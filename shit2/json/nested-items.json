@@ -1,0 +1,82 @@
+{
+  "B.F. Sword": {
+    "B.F. Sword": "Infinity Edge",
+    "Recurve Bow": "Sword of the Divine",
+    "Needlessly Large Rod": "Hextech Gunblade",
+    "Tear of the Goddess": "Spear of Shojin",
+    "Chain Vest": "Guardian Angel",
+    "Negatron Cloak": "The Bloodthirster",
+    "Giant's Belt": "Zeke's Herald",
+    "Spatula": "Youmuu's Ghostblade"
+  },
+  "Needlessly Large Rod": {
+    "B.F. Sword": "Hextech Gunblade",
+    "Recurve Bow": "Guinsoo's Rageblade",
+    "Needlessly Large Rod": "Rabadon's Deathcap",
+    "Tear of the Goddess": "Luden's Echo",
+    "Chain Vest": "Locket of the Iron Solari",
+    "Negatron Cloak": "Ionic Spark",
+    "Giant's Belt": "Morellonomicon",
+    "Spatula": "Yuumi"
+  },
+  "Recurve Bow": {
+    "B.F. Sword": "Sword of the Divine",
+    "Recurve Bow": "Rapid Firecannon",
+    "Needlessly Large Rod": "Guinsoo's Rageblade",
+    "Tear of the Goddess": "Statikk Shiv",
+    "Chain Vest": "Phantom Dancer",
+    "Negatron Cloak": "Cursed Blade",
+    "Giant's Belt": "Titanic Hydra",
+    "Spatula": "Blade of the Ruined King"
+  },
+  "Chain Vest": {
+    "B.F. Sword": "Guardian Angel",
+    "Recurve Bow": "Phantom Dancer",
+    "Needlessly Large Rod": "Locket of the Iron Solari",
+    "Tear of the Goddess": "Frozen Heart",
+    "Chain Vest": "Thornmail",
+    "Negatron Cloak": "Sword Breaker",
+    "Giant's Belt": "Red Buff",
+    "Spatula": "Knight's Vow"
+  },
+  "Giant's Belt": {
+    "B.F. Sword": "Zeke's Herald",
+    "Recurve Bow": "Titanic Hydra",
+    "Needlessly Large Rod": "Morellonomicon",
+    "Tear of the Goddess": "Redemption",
+    "Chain Vest": "Red Buff",
+    "Negatron Cloak": "Zephyr",
+    "Giant's Belt": "Warmog's Armor",
+    "Spatula": "Frozen Mallet"
+  },
+  "Negatron Cloak": {
+    "B.F. Sword": "The Bloodthirster",
+    "Recurve Bow": "Cursed Blade",
+    "Needlessly Large Rod": "Ionic Spark",
+    "Tear of the Goddess": "Hush",
+    "Chain Vest": "Sword Breaker",
+    "Negatron Cloak": "Dragon's Claw",
+    "Giant's Belt": "Zephyr",
+    "Spatula": "Runaan's Hurricane"
+  },
+  "Spatula": {
+    "B.F. Sword": "Youmuu's Ghostblade",
+    "Recurve Bow": "Blade of the Ruined King",
+    "Needlessly Large Rod": "Yuumi",
+    "Tear of the Goddess": "Darkin",
+    "Chain Vest": "Knight's Vow",
+    "Negatron Cloak": "Runaan's Hurricane",
+    "Giant's Belt": "Frozen Mallet",
+    "Spatula": "Force of Nature"
+  },
+  "Tear of the Goddess": {
+    "B.F. Sword": "Spear of Shojin",
+    "Recurve Bow": "Statikk Shiv",
+    "Needlessly Large Rod": "Luden's Echo",
+    "Tear of the Goddess": "Seraph's Embrace",
+    "Chain Vest": "Frozen Heart",
+    "Giant's Belt": "Redemption",
+    "Negatron Cloak": "Hush",
+    "Spatula": "Darkin"
+  }
+}
